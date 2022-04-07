@@ -20,3 +20,4 @@ const styles = StyleSheet.create({
 });
 
 // testing commit settings
+// testing commit settings 2
