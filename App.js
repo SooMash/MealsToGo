@@ -18,6 +18,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-// testing commit settings
-// testing commit settings 2
