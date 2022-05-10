@@ -1,12 +1,13 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import React from 'react'
+import { StatusBar as ExpoStatusBar } from 'expo-status-bar'
+
+import { RestaurantsScreen } from './src/features/restaurants/screens/restaurants.screen'
 
 export default function App() {
   return (
-    <View style={{ alignItems: "center", flex: 1, justifyContent: "center" }}>
-      <Text>MealsToGo React native blank canvas</Text>
-    </View>
-  );
+    <>
+      <RestaurantsScreen />
+      <ExpoStatusBar />
+    </>
+  )
 }
-
-const styles = StyleSheet.create({});
